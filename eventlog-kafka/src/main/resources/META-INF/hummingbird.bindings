@@ -1,0 +1,1 @@
+hummingbird.ext.class=com.hczhang.hummingbird.ext.eventlog.kafka.KafkaEventLogBinding
