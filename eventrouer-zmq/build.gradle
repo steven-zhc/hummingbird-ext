@@ -1,0 +1,6 @@
+dependencies {
+
+    // zeromq
+    compile 'org.zeromq:jeromq:0.3.5'
+
+}
