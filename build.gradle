@@ -1,0 +1,24 @@
+subprojects {
+    apply plugin: 'java'
+
+    group 'com.hczhang.hummingbird.ext'
+    version '0.2'
+
+    ext.spring_version = '4.1.7.RELEASE'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+
+        compile 'com.hczhang.hummingbird:hummingbird-spring:0.2'
+
+        // Test lib
+        testCompile 'org.testng:testng:6.9.4'
+        testCompile 'org.mockito:mockito-core:1.9.5'
+    }
+}

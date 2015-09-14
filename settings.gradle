@@ -1,0 +1,6 @@
+rootProject.name = 'hummingbird-ext'
+include 'eventlog-kafka'
+include 'eventrouer-zmq'
+include 'eventrouter-disruptor'
+include 'eventstore-mysql'
+
