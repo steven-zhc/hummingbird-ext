@@ -1,0 +1,6 @@
+dependencies {
+
+    // kafka
+    compile 'com.lmax:disruptor:3.2.0'
+
+}
